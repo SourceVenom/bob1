@@ -78,7 +78,7 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://a.top4top.io/p_2929boy350.jpg",
+        photo=f"https://www7.0zz0.com/2024/02/28/05/415560079.jpg",
         caption=f"""↯︙اهلا بك عزيزي {message.from_user.mention}\n↯︙مطورين سورس فينوم ميوزك""",
         reply_markup=InlineKeyboardMarkup(
             [
