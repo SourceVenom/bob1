@@ -94,21 +94,21 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://a.top4top.io/p_2929boy350.jpg"
+    "START_IMG_URL", "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://a.top4top.io/p_2929boy350.jpg"
+    "PING_IMG_URL", "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
 )
-PLAYLIST_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-STATS_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-TELEGRAM_AUDIO_URL = "https://a.top4top.io/p_2929boy350.jpg"
-TELEGRAM_VIDEO_URL = "https://a.top4top.io/p_2929boy350.jpg"
-STREAM_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-SOUNCLOUD_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-YOUTUBE_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://a.top4top.io/p_2929boy350.jpg"
+PLAYLIST_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+STATS_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+TELEGRAM_AUDIO_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+TELEGRAM_VIDEO_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+STREAM_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+SOUNCLOUD_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+YOUTUBE_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://www7.0zz0.com/2024/02/28/05/415560079.jpg"
 
 
 def time_to_seconds(time):
