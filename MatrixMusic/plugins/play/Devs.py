@@ -90,7 +90,7 @@ async def huhh(client: Client, message: Message):
                         "‹ : 𝗗𝗘𝗩 𝐌𝐈𝐒𝐇𝐊𝐀𝐒² : ›", url=f"https://t.me/X_M_50"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ : 𓏺𝗦𝗼𝘂𝗿𝗰𝗲ᯓ𝗩𝗘𝗡𝗢𝗠𖠛 : ›", url=f"https://t.me/Veno_m_1"),
+                        "‹ : 𓏺𝗦𝗼𝘂𝗿𝗰𝗲ᯓ𝗩𝗘𝗡𝗢𝗠𖠛 : ›", url=f"https://t.me/jv_jv1"),
                 ],
 
             ]
@@ -116,7 +116,7 @@ async def huhh(client, message):
        [
            [
                InlineKeyboardButton(
-                   "‹ : 𝖬𝖺𝖳𝗋𝗂x 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/Veno_m_1"),
+                   "‹ : 𝖬𝖺𝖳𝗋𝗂x 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/jv_jv1"),
            ],
        ]
     ),
