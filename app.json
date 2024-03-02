@@ -13,7 +13,7 @@
     ],
     "env": {
       "BOT_TOKEN": {
-        "description": "⦗ @l1_libot ⦘ ↫ تـــوكـــن الـبـوت",
+        "description": "⦗@V_0_1_Vbot ⦘ ↫ تـــوكـــن الـبـوت",
         "value": "",
         "required": true
       },
