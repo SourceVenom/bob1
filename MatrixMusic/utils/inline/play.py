@@ -100,7 +100,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 callback_data=f"Playlists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
-        [InlineKeyboardButton(text=_["MATRIX_BUTTON"], url=f"https://t.me/Veno_m_1")],
+        [InlineKeyboardButton(text=_["MATRIX_BUTTON"], url=f"https://t.me/K_o_c_3")],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -119,7 +119,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
-        [InlineKeyboardButton(text=_["MATRIX_BUTTON"], url=f"https://t.me/Veno_m_1")],
+        [InlineKeyboardButton(text=_["MATRIX_BUTTON"], url=f"https://t.me/K_o_c_3")],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
