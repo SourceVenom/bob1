@@ -7,11 +7,11 @@ import random
 from datetime import datetime
 import requests
 import pytz
-from AFROTOMusic.core.call import Zelzaly
+from MatrixMusic.core.call import Zelzaly
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from AFROTOMusic.core.call import Zelzaly
-from AFROTOMusic.utils.database import *
+from MatrixMusic.core.call import Zelzaly
+from MatrixMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 from pyrogram.errors import (
     ChatAdminRequired,
