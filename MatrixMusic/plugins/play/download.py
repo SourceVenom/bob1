@@ -19,7 +19,7 @@ def remove_if_exists(path):
         os.remove(path)
 
 
-@app.on_message(command(["/song", "يوتيوب", "تحميل"]))
+@app.on_message(command(["/song", "تنزيل", "تحميل"]))
 async def song_downloader(client, message: Message):
     query = " ".join(message.command[1:])
     m = await message.reply_text("<b>⇜ جـارِ البحث عـن المقطـع الصـوتـي . . .</b>")
@@ -45,7 +45,7 @@ async def song_downloader(client, message: Message):
         await m.edit("- لم يتم العثـور على نتائج ؟!\n- حـاول مجـدداً . . .")
         print(str(e))
         return
-    await m.edit("<b>⇜ جـارِ التحميل  . . .</b>")
+    await m.edit("<b>⇜ جـارِ التحميل ▬▭ . . .</b>")
     try:
         with yt_dlp.YoutubeDL(ydl_ops) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -57,7 +57,7 @@ async def song_downloader(client, message: Message):
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
             secmul *= 60
-        await m.edit("<b>⇜ جـارِ الرفـع . . .</b>")
+        await m.edit("<b>⇜ جـارِ الرفـع ▬▬ . . .</b>")
         await message.reply_audio(
             audio=audio_file,
             caption=rep,
