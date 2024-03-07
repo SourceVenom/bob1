@@ -32,9 +32,3 @@ async def gak_owne(client: Client, message: Message):
                        return await message.reply_photo(photo, caption=f"🧞‍♂️ ¦𝙺𝙸𝙽𝙶 :{m.first_name}\n🎯 ¦𝚄𝚂𝙴𝚁 :@{m.username}\n🎃 ¦𝙸𝙳 :{m.id}\n💌 ¦𝙱𝙸𝙾 :{m.bio}\n✨ ¦𝙲𝙷𝙰𝚃: {message.chat.title}\n♻️ ¦𝙸𝙳.𝙲𝙷𝙰𝚃 :{message.chat.id}",reply_markup=key)
                  else:
                     return await message.reply("• " + member.user.mention)
-                    
-                    
-@app.on_message(command(["اسمي", "اسمي اي"]) & filters.group )
-async def vgdg(client: Client, message: Message):
-    await message.reply_text(
-        f"""❤️‍🔥 اسمك »»  {message.from_user.mention()}""")
