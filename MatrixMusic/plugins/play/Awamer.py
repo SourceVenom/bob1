@@ -1,15 +1,15 @@
 import asyncio
 import os
 from pyrogram.types import CallbackQuery
-from AFROTOMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from AFROTOMusic import app
+from MatrixMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from MatrixMusic import app
 import requests
 import pyrogram
 from pyrogram import Client, emoji 
 from config import *
 from pyrogram import filters
 from strings.filters import command
-from AFROTOMusic.misc import HAPP, SUDOERS, XCB
+from MatrixMusic.misc import HAPP, SUDOERS, XCB
 from config import OWNER_ID
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from pyrogram.errors import MessageNotModified
