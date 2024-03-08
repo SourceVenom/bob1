@@ -16,7 +16,7 @@ def Ckick_Mute_Ban(message: Message):
         and check_group(chat_id)
     ):
         IDD = message.reply_to_message.from_user
-        FD2V = ban_function_van(message, My_id)
+        FD2V = ban_function_van(message,My_id)
         if "True" in FD2V:
             bot.send_message(chat_id, FD2V[1], reply_to_message_id=message.id)
             bot.ban_chat_member(chat_id, IDD.id)
