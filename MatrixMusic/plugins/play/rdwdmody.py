@@ -1,4 +1,4 @@
-import asyncio
+غimport asyncio
 import random
 from MatrixMusic import app
 from pyrogram.types import (InlineKeyboardButton,
@@ -286,9 +286,9 @@ async def caesar(client: Client, message: Message):
 
         f"{a}")   
 txt = [
-"تم كتم العضو بي نجاح"
+"عيز ايه من مطور السورس "
         ]
-@app.on_message(filters.command(["كتم"], ""), group=73)
+@app.on_message(filters.command(["فينوم"], ""), group=73)
 
 async def caesar(client: Client, message: Message):
 
