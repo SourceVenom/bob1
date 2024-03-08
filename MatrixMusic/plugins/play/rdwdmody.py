@@ -285,7 +285,19 @@ async def caesar(client: Client, message: Message):
       await message.reply(
 
         f"{a}")   
+txt = [
+"تم كتم العضو بي نجاح"
+        ]
+@app.on_message(filters.command(["كتم"], ""), group=73)
 
+async def caesar(client: Client, message: Message):
+
+      a = random.choice(txt)
+
+      await message.reply(
+
+        f"{a}")
+        
 ihtxt = [
 " ونجيب اشخاص 😂👻"
         ]
