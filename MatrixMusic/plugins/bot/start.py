@@ -67,7 +67,7 @@ async def start_pm(client, message: Message, _):
             await m.delete()
             await app.send_video(
                 chat_id=message.chat.id,
-                video=thumbnail,
+                photo=thumbnail,
                 caption=searched_text,
                 reply_markup=key,
             )
