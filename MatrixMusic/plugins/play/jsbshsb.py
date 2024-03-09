@@ -5,7 +5,6 @@ import time
 import requests
 from random import  choice, randint
 from pyrogram import Client, filters
-from MatrixMusic.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from MatrixMusic import app
 
