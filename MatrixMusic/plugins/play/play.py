@@ -24,7 +24,25 @@ from MatrixMusic.utils.inline import (
 from MatrixMusic.utils.logger import play_logs
 from MatrixMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
+force_btn = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(
+                text="اشترك هنا", url="https://t.me/K_o_c_3"
+            ),                        
+        ],        
+    ]
+)
 
+async def check_is_joined(message):    
+    try:
+     if message.from_user:
+        userid = message.from_user.id
+        status = await app.get_chat_member("سورس فينوم ", userid)
+     return True
+    except Exception:
+        await message.reply_text("<b>فينوم</b>\n╮⊚ حبي اشترك في القناه الاول\n╯⊚ وتعالي شغل اغاني براحتك",reply_markup=force_btn,parse_mode=enums.ParseMode.HTML,disable_web_page_preview=False)
+        return False
 
 @app.on_message(
     command(
